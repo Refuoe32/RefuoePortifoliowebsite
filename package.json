@@ -8,9 +8,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start":"concurrently \"node --watch server/index.js\" \"vite\""
+    "start": "concurrently \"node --watch server/index.js\" \"vite\""
   },
   "dependencies": {
+    "@libsql/client": "^0.18.0",
     "better-sqlite3": "^13.0.3",
     "concurrently": "^10.0.5",
     "express": "^5.2.1",
